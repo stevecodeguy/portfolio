@@ -1,0 +1,24 @@
+/* Dark black/blue #182330
+Dark Navy Blue #396274
+Light Navy Blue #6198ac
+Parchment #f6f5eb
+Gold #e2b865 */
+
+:root {
+  --color-dark-blue: #182330;
+  --color-navy-blue: #396274;
+  --color-light-blue: #6198ac;
+  --color-parchment: #f6f5eb;
+  --color-dim-parchment: #a5a4a1;
+  --color-gold: #e2b865;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

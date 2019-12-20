@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     width: 30px;
     height: 30px;
-    background-color: var(--color-navy-blue);
+    background-color: transparent;
     border: none;
 }
 

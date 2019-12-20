@@ -37,7 +37,9 @@ function App() {
 
   return (
     <Router >
-      <NavBurger openCloseSlideMenu={openCloseSlideMenu}/>
+      <div className='navContainer'>
+        <NavBurger openCloseSlideMenu={openCloseSlideMenu}/>
+      </div>
 
       <SlideNav 
         showNav={showNav}

@@ -16,7 +16,9 @@ function App() {
   useEffect(() => {
     const root = document.getElementById('root');
     root.addEventListener('click', (event) => {
-      if(!document.getElementById('slideNav').contains(event.target)){
+      if(!document.getElementById('slideNav').contains(event.target)
+        && !document.getElementsByClassName('burgerBox')[0].contains(event.target)
+      ){
         if(showNav === 'activeSlide'){
           setShowNav('hideSlide');
         }
@@ -31,7 +33,6 @@ function App() {
     if (showNav === 'activeSlide'){
         setShowNav('hideSlide');
     }
-    console.log('yssj')
   }
 
   return (

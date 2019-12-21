@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
+import Background from './Visual/Background/Background';
 import NavBurger from './Navigation/NavBurger/NavBurger';
 import SlideNav from './Navigation/SlideNav/SlideNav';
 import About from './Routes/About/About';
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <Router >
+      <Background />
       <div className='navContainer'>
         <NavBurger openCloseSlideMenu={openCloseSlideMenu}/>
       </div>

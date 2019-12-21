@@ -13,8 +13,13 @@ Gold #e2b865 */
   --color-gold: #e2b865;
 }
 
-body {
-  height: 100vh;
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }
 
 #root {

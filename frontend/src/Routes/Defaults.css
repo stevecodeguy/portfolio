@@ -5,8 +5,19 @@ article {
     transform: translate(-50%, -50%);
     width: 300px;
     height: 500px;
+    animation: fadeIn 1s ease-in forwards;
 }
 
 article h1 {
     text-align: center;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
 }

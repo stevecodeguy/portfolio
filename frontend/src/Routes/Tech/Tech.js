@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Tech() {
-    return <h1>Tech</h1>
+    return (
+        <article>
+            <h1>Tech</h1>
+        </article>
+    );
 }

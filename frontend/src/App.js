@@ -37,41 +37,44 @@ function App() {
   }
 
   return (
-    <Router >
+    <>
       <Background />
       <div className='navContainer'>
-        <NavBurger openCloseSlideMenu={openCloseSlideMenu}/>
+        <NavBurger openCloseSlideMenu={ openCloseSlideMenu }/>
       </div>
 
-      <SlideNav 
-        showNav={showNav}
-        openCloseSlideMenu={openCloseSlideMenu}
-      />
+      <Router >
 
-      <Switch>
+        <SlideNav 
+          showNav={ showNav }
+          openCloseSlideMenu={ openCloseSlideMenu }
+        />
 
-        <Route exact path='/'>
-          <About />
-        </Route>
+        <Switch>
 
-        <Route path='/blog'>
-          <Blog />
-        </Route>
+          <Route exact path='/'>
+            <About />
+          </Route>
 
-        <Route path='/project'>
-          <Projects />
-        </Route>
+          <Route path='/blog'>
+            <Blog />
+          </Route>
 
-        <Route path='/contact'>
-          <ReachOut />
-        </Route>
+          <Route path='/project'>
+            <Projects />
+          </Route>
 
-        <Route path='/tools'>
-          <Tech />
-        </Route>
+          <Route path='/contact'>
+            <ReachOut />
+          </Route>
 
-      </Switch>
-    </Router>
+          <Route path='/tools'>
+            <Tech />
+          </Route>
+
+        </Switch>
+      </Router>
+    </>
   );
 }
 

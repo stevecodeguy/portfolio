@@ -1,16 +1,15 @@
-/* Dark black/blue #182330
-Dark Navy Blue #396274
-Light Navy Blue #6198ac
-Parchment #f6f5eb
-Gold #e2b865 */
+/* 
+Steel Blue #387FA9
+Midnight Blue #122336
+Dark Slate Blue #26445F
+Dark Gray #9e9895
+*/
 
 :root {
-  --color-dark-blue: #182330;
-  --color-navy-blue: #396274;
-  --color-light-blue: #6198ac;
-  --color-parchment: #f6f5eb;
-  --color-dim-parchment: #a5a4a1;
-  --color-gold: #e2b865;
+  --color-steel-blue: #387FA9;
+  --color-midnight-blue: #122336;
+  --color-dark-slate-blue: #26445F;
+  --color-dark-gray: #9e9895;
 }
 
 body, html {
@@ -30,6 +29,6 @@ body, html {
 
 .navContainer {
   width: 100%;
-  background-color: var(--color-navy-blue);
+  background-color: var(--color-steel-blue);
   box-shadow: inset 0px 0px 16px 1px rgba(0, 0, 0, 0.25);
 }

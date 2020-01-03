@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
-import Background from './Visual/Background/Background';
 import NavBurger from './Navigation/NavBurger/NavBurger';
 import SlideNav from './Navigation/SlideNav/SlideNav';
-import About from './Routes/About/About';
-import Blog from './Routes/Blog/Blog';
-import Projects from './Routes/Projects/Projects';
-import ReachOut from './Routes/ReachOut/ReachOut';
-import Tech from './Routes/Tech/Tech';
+import ArticleFrame from './Components/ArticleFrame/ArticleFrame';
 
 function App() {
   const [showNav, setShowNav] = useState('initial');
@@ -38,7 +33,7 @@ function App() {
 
   return (
     <>
-      <Background />
+      {/* <Background /> */}
       <div className='navContainer'>
         <NavBurger openCloseSlideMenu={ openCloseSlideMenu }/>
       </div>
@@ -50,29 +45,8 @@ function App() {
           openCloseSlideMenu={ openCloseSlideMenu }
         />
 
-        <Switch>
+        <ArticleFrame />
 
-          <Route exact path='/'>
-            <About />
-          </Route>
-
-          <Route path='/blog'>
-            <Blog />
-          </Route>
-
-          <Route path='/project'>
-            <Projects />
-          </Route>
-
-          <Route path='/contact'>
-            <ReachOut />
-          </Route>
-
-          <Route path='/tools'>
-            <Tech />
-          </Route>
-
-        </Switch>
       </Router>
     </>
   );

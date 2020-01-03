@@ -11,7 +11,14 @@ function SlideNav(props) {
             >
             <ul>
                 <p>About</p>
-                {['Introduction', 'Blog'].map((index, key) => {
+                <li>
+                    <NavLink 
+                        activeClassName="selected" 
+                        to="/"
+                        onClick={() => props.openCloseSlideMenu()}
+                    >Introduction</NavLink>
+                </li>
+                {/* {['Introduction', 'Blog'].map((index, key) => {
                     return (
                         <li key={key}>
                             <NavLink 
@@ -22,7 +29,7 @@ function SlideNav(props) {
                             >{index}</NavLink>
                         </li> 
                     )
-                })}
+                })} */}
                 <hr />
                 <p>Projects</p>
                 {['Pizza', 'Javastroids', 'Vulcan'].map((index, key) => {

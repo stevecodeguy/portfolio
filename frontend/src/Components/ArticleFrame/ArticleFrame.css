@@ -1,0 +1,54 @@
+article {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 16px 0;
+    z-index: 20;
+    background-color: white;
+}
+
+article h1,
+article h3 {
+    text-align: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+article hr {
+    margin: 0 15%;
+    width: 70%;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.4em; 
+    margin: 0 15% 1em;
+    color: black;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.centerContent {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.zigzags {
+    width: 100%;
+}
+
+.zztop {
+    margin-bottom: -8px;
+}
+
+.zzBottom {
+    margin-top: -1px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

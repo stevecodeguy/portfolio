@@ -12,23 +12,35 @@ Dark Gray #9e9895
   --color-dark-gray: #9e9895;
 }
 
+@font-face {
+  font-family: 'SourceSansPro';
+  src: 
+    url('./Fonts/SourceSansPro-Regular.ttf') format('truetype'),
+    url('./Fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+* {
+  font-family: 'SourceSansPro', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.11em;
+}
+
 body, html {
   padding: 0;
   margin: 0;
-  overflow: hidden;
-  height: 100%;
+  height: auto;
   width: 100%;
-  position: fixed;
 }
 
-#root {
-  height: 100%;
-  width: 100%;
-  position: absolute;
+body {
+  background: url(./Visual/Images/Ocean.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .navContainer {
   width: 100%;
   background-color: var(--color-steel-blue);
   box-shadow: inset 0px 0px 16px 1px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  z-index: 5000;
 }

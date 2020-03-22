@@ -1,0 +1,25 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+}
+
+.projects a {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects a img {
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.projects a h4 {
+    margin-top: 0;
+    font-size: 0.9em;
+    text-align: center;
+}

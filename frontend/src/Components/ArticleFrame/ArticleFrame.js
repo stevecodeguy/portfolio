@@ -15,7 +15,7 @@ import BottomZigZag from '../../Visual/Images/zigzag_bottom.png';
 export default function ArticleFrame() {
     return (
         <div className='centerContent'>
-        <img className='zigzags zztop' src={ TopZigZag } alt='Top zig zag' />
+        <img className='zigzags' src={ TopZigZag } alt='Top zig zag' />
             <article>
             <Switch>
 
@@ -41,7 +41,7 @@ export default function ArticleFrame() {
 
             </Switch>
             </article>
-            <img className='zigzags zzBottom' src={ BottomZigZag } alt='Bottom zig zag' />
+            <img className='zigzags' src={ BottomZigZag } alt='Bottom zig zag' />
         </div>
     );
 }

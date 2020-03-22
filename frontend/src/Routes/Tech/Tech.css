@@ -1,12 +1,12 @@
 .techWrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .techWrap div {
-    /* border: solid 1px red; */
     width: 45%;
     margin-top: 16px;
 }
@@ -22,12 +22,16 @@
 .fadeIn1,
 .fadeIn3 {
     opacity: 0;
+    margin: 0 auto 16px;
+    width: 50%;
     animation: fadeInLeftToRight 1.75s ease-in forwards;
 }
 
 .fadeIn2,
 .fadeIn4 {
     opacity: 0;
+    margin: 0 auto;
+    width: 50%;
     animation: fadeInRightToLeft 1.75s ease-in forwards;
 }
 
@@ -66,5 +70,16 @@
     100% {
         opacity: 1;
         transform: rotateY(0deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .techWrap {
+        width: 100%;
+    }
+
+    .techWrap h3,
+    .techWrap p {
+        font-size: 0.8em;
     }
 }

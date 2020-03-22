@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Contacts from '../../Components/Contacts/Contacts';
+
 import './SlideNav.css';
 
 function SlideNav(props) {
@@ -32,7 +34,7 @@ function SlideNav(props) {
                 })} */}
                 <hr />
                 <p>Projects</p>
-                {['Pizza', 'Javastroids', 'Vulcan'].map((index, key) => {
+                {['Pizza Store', 'Javastroids', 'Vulcan'].map((index, key) => {
                     return (
                         <li key={key}>
                             <NavLink 
@@ -62,6 +64,7 @@ function SlideNav(props) {
                         onClick={() => props.openCloseSlideMenu()}
                     >Contact Me</NavLink>
                 </li>
+                <li><Contacts size={ 'contacts-small' }/></li>
             </ul>
         </nav>
     );

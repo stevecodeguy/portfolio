@@ -5,8 +5,8 @@ export default function About() {
         <article>
             <h1>Introduction</h1>
             <hr />
-            <h3>My name is Steve Gilkes</h3>
-            <p>Welcome to my portfolio. <br />Please visit my site and view my projects. Contact me if you like what you see and would like to work with me!</p>
+            <h3>Hi there!</h3>
+            <p>My name is Steve Gilkes. <br />Welcome to my portfolio. <br />Please visit my site and view my projects. Contact me if you like what you see and would like to work with me!</p>
         </article>
     );
 }

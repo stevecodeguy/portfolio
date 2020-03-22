@@ -2,12 +2,13 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './ArticleFrame.css';
+import '../../Routes/Projects/Projects.css';
 
 import About from '../../Routes/About/About';
 import Blog from '../../Routes/Blog/Blog';
-import Projects from '../../Routes/Projects/Projects';
 import ProjectPizzaStore from '../../Routes/ProjectPizzaStore/ProjectPizzaStore';
 import ProjectJavastroids from '../../Routes/ProjectJavastroids/ProjectJavastroids';
+import ProjectVulcan from '../../Routes/ProjectVulcan/ProjectVulcan';
 import ReachOut from '../../Routes/ReachOut/ReachOut';
 import Tech from '../../Routes/Tech/Tech';
 
@@ -36,6 +37,10 @@ export default function ArticleFrame() {
 
                 <Route path='/project/javastroids'>
                     <ProjectJavastroids />
+                </Route>
+
+                <Route path='/project/vulcan'>
+                    <ProjectVulcan />
                 </Route>
 
                 <Route path='/contact'>

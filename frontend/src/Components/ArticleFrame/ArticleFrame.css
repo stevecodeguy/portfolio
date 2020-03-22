@@ -18,8 +18,6 @@ article hr {
 }
 
 article p {
-    display: flex;
-    justify-content: center;
     font-size: 1em;
     line-height: 1.4em; 
     margin: 0 25% 1em;

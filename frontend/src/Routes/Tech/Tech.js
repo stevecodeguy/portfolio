@@ -14,19 +14,23 @@ export default function Tech() {
                         HTML<br/>
                         CSS<br/>
                         JavaScript<br/>
+                        TypeScript<br/>
                         PHP<br/>
                         C<br/>
-                        C++<br/>
                         VBScript<br/>
-                        Visual Basic
+                        Visual Basic<br/>
+                        WordPress
                     </p>
                 </div>
                 <div className='fadeIn2'>
-                    <h3>IDE / Text Editors</h3>
+                    <h3>Frameworks</h3>
                     <p>
-                        Visual Studio Code<br/>
-                        Visual Studio<br/>
-                        Brackets
+                        JQuery<br/>
+                        React.js<br/>
+                        React Redux<br/>
+                        React-Ionic<br/>
+                        Node.js<br/>
+                        Express.js
                     </p>
                 </div>
                 <div className='fadeIn3'>
@@ -39,11 +43,15 @@ export default function Tech() {
                     </p>
                 </div>
                 <div className='fadeIn4'>
-                    <h3>Tools</h3>
+                    <h3>Tools / Databases</h3>
                     <p>
                         NPM<br/>
                         Yarn<br/>
-                        Github
+                        Github<br/>
+                        MySQL<br/>
+                        PostgresSQL<br/>
+                        MS Access<br/>
+                        MongoDB
                     </p>
                 </div>
             </div>

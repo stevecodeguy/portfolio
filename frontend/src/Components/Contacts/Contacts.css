@@ -5,7 +5,10 @@
 
 .contacts-small a:hover img,
 .contacts-small a:active img,
-.contacts-small a:focus img {
+.contacts-small a:focus img,
+.contacts-large a:hover img,
+.contacts-large a:active img,
+.contacts-large a:focus img {
     animation: hoverImage 0.01s ease-in forwards;
 }
 

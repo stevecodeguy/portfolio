@@ -6,6 +6,7 @@ import './ArticleFrame.css';
 import About from '../../Routes/About/About';
 import Blog from '../../Routes/Blog/Blog';
 import Projects from '../../Routes/Projects/Projects';
+import ProjectPizzaStore from '../../Routes/ProjectPizzaStore/ProjectPizzaStore';
 import ReachOut from '../../Routes/ReachOut/ReachOut';
 import Tech from '../../Routes/Tech/Tech';
 
@@ -25,6 +26,10 @@ export default function ArticleFrame() {
 
                 <Route path='/blog'>
                     <Blog />
+                </Route>
+
+                <Route path='/project/pizza'>
+                    <ProjectPizzaStore />
                 </Route>
 
                 <Route path='/project'>

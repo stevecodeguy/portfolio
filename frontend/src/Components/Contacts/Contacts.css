@@ -3,6 +3,12 @@
     justify-content: space-around;
 }
 
+.contacts-small a:hover img,
+.contacts-small a:active img,
+.contacts-small a:focus img {
+    animation: hoverImage 0.01s ease-in forwards;
+}
+
 .contacts a {
     cursor: pointer;
     width: 24%;
@@ -22,4 +28,11 @@
 .contacts-small a {
     width: 20%;
     height: 26px;
+}
+
+@keyframes hoverImage {
+    100% {
+        width: 120%;
+        height: 120%;
+    }
 }

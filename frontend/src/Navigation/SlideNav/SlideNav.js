@@ -20,21 +20,9 @@ function SlideNav(props) {
                         onClick={() => props.openCloseSlideMenu()}
                     >Introduction</NavLink>
                 </li>
-                {/* {['Introduction', 'Blog'].map((index, key) => {
-                    return (
-                        <li key={key}>
-                            <NavLink 
-                                exact 
-                                activeClassName="selected" 
-                                to={ "/" + (index === 'Introduction' ? '' : index.toLowerCase()) }
-                                onClick={() => props.openCloseSlideMenu()}
-                            >{index}</NavLink>
-                        </li> 
-                    )
-                })} */}
                 <hr />
                 <p>Projects</p>
-                {['Pizza Store', 'Javastroids', 'Vulcan'].map((index, key) => {
+                {['Pizza', 'Javastroids', 'Vulcan'].map((index, key) => {
                     return (
                         <li key={key}>
                             <NavLink 
@@ -42,7 +30,7 @@ function SlideNav(props) {
                                 activeClassName="selected" 
                                 to={ "/project/" + index.toLowerCase() }
                                 onClick={() => props.openCloseSlideMenu()}
-                            >{index}</NavLink>
+                            >{index === 'Pizza' ? 'Pizza Store' : index}</NavLink>
                         </li> 
                     )
                 })}

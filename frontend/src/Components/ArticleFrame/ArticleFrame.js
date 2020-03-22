@@ -14,6 +14,7 @@ import Tech from '../../Routes/Tech/Tech';
 
 import TopZigZag from '../../Visual/Images/zigzag_top.png';
 import BottomZigZag from '../../Visual/Images/zigzag_bottom.png';
+import Logo from '../../Visual/Images/darkBlueLogo2.svg';
 
 
 export default function ArticleFrame() {
@@ -21,6 +22,9 @@ export default function ArticleFrame() {
         <div className='centerContent'>
         <img className='zigzags' src={ TopZigZag } alt='Top zig zag' />
             <article>
+            <div id='logo'>
+                <img src={Logo} alt='Logo' />
+            </div>
             <Switch>
 
                 <Route exact path='/'>

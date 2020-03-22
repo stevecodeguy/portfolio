@@ -1,6 +1,8 @@
 import React from 'react';
 
 import javastroids from '../../Visual/Images/javastroids.svg';
+import javastroidsCode from '../../Visual/Images/javastroids_code.svg';
+
 import ProjectImage from '../../Components/ProjectImageHandler/ProjectImageHandler';
 
 export default function ProjectJavastroids() {
@@ -12,6 +14,11 @@ export default function ProjectJavastroids() {
                 <a href='https://sgilkes.bcitwebdeveloper.ca/javastroids/index.html'>
                     <img src={ javastroids } alt='Javascript Asteroids' />
                     <h4>See the Live Site!</h4>
+                </a>
+
+                <a href='https://github.com/stevecodeguy/JavaStroids'>
+                    <img src={ javastroidsCode } alt='Javascript Asteroids Github Code' />
+                    <h4>See the Code on Github!</h4>
                 </a>
             </div>
 

@@ -6,7 +6,7 @@
 }
 
 .projects a {
-    width: 180px;
+    width: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,12 +22,12 @@
 
 .projects a img {
     margin-bottom: 10px;
-    width: 70px;
+    width: 60px;
 }
 
 .projects a h4 {
     margin-top: 0;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
 }
 

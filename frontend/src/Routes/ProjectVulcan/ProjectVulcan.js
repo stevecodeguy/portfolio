@@ -1,6 +1,8 @@
 import React from 'react';
 
 import vulcan from '../../Visual/Images/vulcan.svg';
+import vulcanCode from '../../Visual/Images/vulcan_code.svg';
+
 import ProjectImage from '../../Components/ProjectImageHandler/ProjectImageHandler';
 
 export default function ProjectVulcan() {
@@ -12,6 +14,11 @@ export default function ProjectVulcan() {
                 <a href='https://sgilkes.bcitwebdeveloper.ca/vulcan/index.html'>
                     <img src={ vulcan } alt='Vulcan Website' />
                     <h4>See the Live Site!</h4>
+                </a>
+                
+                <a href='https://github.com/stevecodeguy/Vulcan'>
+                    <img src={ vulcanCode } alt='Vulcan Github Code' />
+                    <h4>See the Code on Github!</h4>
                 </a>
             </div>
 

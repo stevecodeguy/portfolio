@@ -11,6 +11,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+.projects a:hover img,
+.projects a:active img,
+.projects a:focus img {
+    animation: hoverSvg 0.01s ease-in forwards;
 }
 
 .projects a img {
@@ -22,4 +29,22 @@
     margin-top: 0;
     font-size: 0.9em;
     text-align: center;
+}
+
+.projectImage {
+    display: flex;
+    justify-content: center;
+    margin: 32px 80px;
+}
+
+.projectImage img {
+    width: 70%;
+    border: 1px solid black;
+}
+
+@keyframes hoverSvg {
+    100% {
+        width: 75px;
+        margin-bottom: 5px;
+    }
 }

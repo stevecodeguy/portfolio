@@ -13,12 +13,12 @@ export default function ProjectJavastroids() {
             <div className='projects'>
                 <a href='https://sgilkes.bcitwebdeveloper.ca/javastroids/index.html'>
                     <img src={ javastroids } alt='Javascript Asteroids' />
-                    <h4>See the Live Site!</h4>
+                    <h4>See it Live!</h4>
                 </a>
 
                 <a href='https://github.com/stevecodeguy/JavaStroids'>
                     <img src={ javastroidsCode } alt='Javascript Asteroids Github Code' />
-                    <h4>See the Code on Github!</h4>
+                    <h4>See the Code!</h4>
                 </a>
             </div>
 

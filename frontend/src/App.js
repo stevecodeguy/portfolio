@@ -8,6 +8,7 @@ import ArticleFrame from './Components/ArticleFrame/ArticleFrame';
 
 function App() {
   const [showNav, setShowNav] = useState('initial');
+  const [winWidth, setWinWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const root = document.getElementById('root');
@@ -22,18 +23,26 @@ function App() {
     });
   }, [showNav]);
 
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setWinWidth(window.innerWidth);
+      setShowNav('activeSlide');
+    });
+  }, [winWidth]);
+
   function openCloseSlideMenu(){
-    if (showNav === 'hideSlide' || showNav === 'initial'){
+    if (winWidth < 600) {
+      if (showNav === 'hideSlide' || showNav === 'initial'){
         setShowNav('activeSlide');
-    } 
-    if (showNav === 'activeSlide'){
+      } 
+      if (showNav === 'activeSlide'){
         setShowNav('hideSlide');
+      }
     }
   }
 
   return (
     <>
-      {/* <Background /> */}
       <div className='navContainer'>
         <NavBurger openCloseSlideMenu={ openCloseSlideMenu }/>
       </div>

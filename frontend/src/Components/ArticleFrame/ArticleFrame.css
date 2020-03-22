@@ -63,3 +63,9 @@ article p {
         opacity: 100%;
     }
 }
+
+@media (min-width: 600px){
+    .centerContent {
+        margin-left: 140px;
+    }
+}

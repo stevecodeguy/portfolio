@@ -13,12 +13,12 @@ export default function ProjectVulcan() {
             <div className='projects'>
                 <a href='https://sgilkes.bcitwebdeveloper.ca/vulcan/index.html'>
                     <img src={ vulcan } alt='Vulcan Website' />
-                    <h4>See the Live Site!</h4>
+                    <h4>See it Live!</h4>
                 </a>
                 
                 <a href='https://github.com/stevecodeguy/Vulcan'>
                     <img src={ vulcanCode } alt='Vulcan Github Code' />
-                    <h4>See the Code on Github!</h4>
+                    <h4>See the Code!</h4>
                 </a>
             </div>
 

@@ -13,12 +13,12 @@ export default function ProjectPizzStore() {
             <div className='projects'>
                 <a href='https://pizzeria.bcitwebdeveloper.ca'>
                     <img src={ pizza } alt='Pizza Slice' />
-                    <h4>See the Live Site!</h4>
+                    <h4>See it Live!</h4>
                 </a>
                 
                 <a href='https://github.com/stevecodeguy/Pizzeria'>
                     <img src={ pizzaCode } alt='Pizzeria Github Code' />
-                    <h4>See the Code on Github!</h4>
+                    <h4>See the Code!</h4>
                 </a>
             </div>
 

@@ -7,11 +7,13 @@ import About from '../../Routes/About/About';
 import Blog from '../../Routes/Blog/Blog';
 import Projects from '../../Routes/Projects/Projects';
 import ProjectPizzaStore from '../../Routes/ProjectPizzaStore/ProjectPizzaStore';
+import ProjectJavastroids from '../../Routes/ProjectJavastroids/ProjectJavastroids';
 import ReachOut from '../../Routes/ReachOut/ReachOut';
 import Tech from '../../Routes/Tech/Tech';
 
 import TopZigZag from '../../Visual/Images/zigzag_top.png';
 import BottomZigZag from '../../Visual/Images/zigzag_bottom.png';
+
 
 export default function ArticleFrame() {
     return (
@@ -32,8 +34,8 @@ export default function ArticleFrame() {
                     <ProjectPizzaStore />
                 </Route>
 
-                <Route path='/project'>
-                    <Projects />
+                <Route path='/project/javastroids'>
+                    <ProjectJavastroids />
                 </Route>
 
                 <Route path='/contact'>

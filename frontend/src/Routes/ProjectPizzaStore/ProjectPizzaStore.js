@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './ProjectPizzaStore.css';
-
 import pizza from '../../Visual/Images/pizza.svg';
 import ProjectImage from '../../Components/ProjectImageHandler/ProjectImageHandler';
 

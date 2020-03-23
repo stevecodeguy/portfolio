@@ -34,7 +34,7 @@
 .projectImage {
     display: flex;
     justify-content: center;
-    margin: 32px 80px;
+    margin: 16px 10px;
 }
 
 .projectImage img {
@@ -46,5 +46,11 @@
     100% {
         width: 75px;
         margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 600px){
+    .projectImage {
+        margin: 32px 80px;
     }
 }

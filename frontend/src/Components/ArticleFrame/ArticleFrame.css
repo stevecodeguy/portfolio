@@ -18,9 +18,9 @@ article hr {
 }
 
 article p {
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.4em; 
-    margin: 0 25% 1em;
+    margin: 0 5% 1em;
     color: black;
     animation: fadeIn 1s ease-in forwards;
 }
@@ -53,6 +53,7 @@ article p {
 .zigzags {
     width: 100%;
     margin-bottom: -8px;
+    margin-top: -1px;
 }
 
 @keyframes fadeIn {
@@ -67,5 +68,19 @@ article p {
 @media (min-width: 600px){
     .centerContent {
         margin-left: 140px;
+    }
+
+    article p {
+        font-size: 1em;
+        line-height: 1.4em; 
+        margin: 0 25% 1em;
+    }
+}
+
+@media (min-width: 1300px){
+    article p {
+        font-size: 1em;
+        line-height: 1.4em; 
+        margin: 0 35% 1em;
     }
 }

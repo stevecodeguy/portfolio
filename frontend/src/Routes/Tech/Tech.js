@@ -10,17 +10,15 @@ export default function Tech() {
             <div className='techWrap'>
                 <div className='fadeIn1'>
                     <h3>Languages</h3>
-                    <p>
-                        HTML<br/>
-                        CSS<br/>
-                        JavaScript<br/>
-                        TypeScript<br/>
-                        PHP<br/>
-                        C<br/>
-                        VBScript<br/>
-                        Visual Basic<br/>
-                        WordPress
-                    </p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>TypeScript</p>
+                    <p>PHP</p>
+                    <p>C</p>
+                    <p>VBScript</p>
+                    <p>Visual Basic</p>
+                    <p>WordPress</p>
                 </div>
                 <div className='fadeIn2'>
                     <h3>Frameworks</h3>

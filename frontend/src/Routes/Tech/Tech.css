@@ -16,7 +16,8 @@
 }
 
 .techWrap div p {
-    text-align: center;
+    text-align: left;
+    width: 175px;
 }
 
 .fadeIn1,

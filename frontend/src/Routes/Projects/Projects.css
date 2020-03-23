@@ -40,6 +40,7 @@
 .projectImage img {
     width: 100%;
     border: 1px solid black;
+    animation: fadeIn 1.5s ease-in forwards;
 }
 
 @keyframes hoverSvg {

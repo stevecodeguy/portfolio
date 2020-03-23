@@ -20,6 +20,7 @@ function App() {
           setShowNav('hideSlide');
         }
       }
+      document.documentElement.scrollTop = 0;
     });
   }, [showNav]);
 

@@ -20,18 +20,17 @@ function App() {
           setShowNav('hideSlide');
         }
       }
-      document.documentElement.scrollTop = 0;
     });
   }, [showNav]);
 
   useEffect(() => {
     window.addEventListener('resize', () => {
       setWinWidth(window.innerWidth);
-      setShowNav('activeSlide');
+      setShowNav('initial');
     });
   }, [winWidth]);
 
-  function openCloseSlideMenu(){
+  function openCloseSlideMenu(docScroll = true){
     if (winWidth < 600) {
       if (showNav === 'hideSlide' || showNav === 'initial'){
         setShowNav('activeSlide');
@@ -40,6 +39,7 @@ function App() {
         setShowNav('hideSlide');
       }
     }
+    if (docScroll) document.documentElement.scrollTop = 0;
   }
 
   return (
@@ -61,7 +61,5 @@ function App() {
     </>
   );
 }
-
-
 
 export default App;

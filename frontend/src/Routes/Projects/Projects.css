@@ -33,6 +33,7 @@
 
 .projectImage {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     margin: 16px 10px;
 }
@@ -48,6 +49,12 @@
         width: 75px;
         margin-bottom: 5px;
     }
+}
+
+@media (min-width: 900px){
+    .projectImage img {
+      width: 70%;
+  }
 }
 
 @media (min-width: 600px){

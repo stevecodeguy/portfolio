@@ -9,6 +9,7 @@ import Blog from '../../Routes/Blog/Blog';
 import ProjectPizzaStore from '../../Routes/ProjectPizzaStore/ProjectPizzaStore';
 import ProjectJavastroids from '../../Routes/ProjectJavastroids/ProjectJavastroids';
 import ProjectVulcan from '../../Routes/ProjectVulcan/ProjectVulcan';
+import WorkGym from '../../Routes/Work/WorkGym';
 import ReachOut from '../../Routes/ReachOut/ReachOut';
 import Tech from '../../Routes/Tech/Tech';
 
@@ -45,6 +46,10 @@ export default function ArticleFrame() {
 
                 <Route path='/project/vulcan'>
                     <ProjectVulcan />
+                </Route>
+
+                <Route path='/work'>
+                    <WorkGym />
                 </Route>
 
                 <Route path='/contact'>

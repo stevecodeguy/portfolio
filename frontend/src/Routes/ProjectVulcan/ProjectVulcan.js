@@ -30,7 +30,7 @@ export default function ProjectVulcan() {
 
             <p>The original site was not disclosed to our team and we had to recreate it from screen captured images. The finished site was almost exactly the same as the official site, even though we had approached styling differently than the original.</p>
             <br />
-            <p>The official site can be found <a className='vulcan' href='https://vulcanindustries.com'>here</a>, although the look has changed slightly since our project to emulate it.</p>
+            <p>The official site can be found <a href='https://vulcanindustries.com'>here</a>, although the look has changed slightly since our project to emulate it.</p>
         </div>
     );
 }

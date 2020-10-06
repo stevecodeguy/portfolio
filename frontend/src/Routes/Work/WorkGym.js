@@ -30,7 +30,7 @@ export default function WorkGym() {
 
             <p>This site replaced a simple Wix site and was built with React. The location of the gym was laid out to show the entrance of the gym for prospective students, and a link to Google maps which can link to navigation on a phone.</p>
             <br />
-            <p>The official site can be found <a className='vulcan' href='https://www.chilliwackgrappling.club'>here</a>.</p>
+            <p>The official site can be found <a href='https://www.chilliwackgrappling.club'>here</a>.</p>
         </div>
     );
 }

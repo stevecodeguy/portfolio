@@ -17,6 +17,7 @@ Dark Gray #9e9895
   src: 
     url('./Fonts/SourceSansPro-Regular.ttf') format('truetype'),
     url('./Fonts/SourceSansPro-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 * {
@@ -32,7 +33,7 @@ body, html {
 }
 
 body {
-  background: url(./Visual/Images/Ocean.jpg) no-repeat center center fixed;
+  background: url(./Visual/Images/Ocean.webp) no-repeat center center fixed;
   background-size: cover;
 }
 

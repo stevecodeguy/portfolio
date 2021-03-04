@@ -11,7 +11,7 @@ export default function ProjectPizzStore() {
             <h1>Projects</h1>
             <hr />
             <div className='projects'>
-                <a href='https://pizzeria.bcitwebdeveloper.ca'>
+                <a href='https://pizza.stevecodeguy.com'>
                     <img src={ pizza } alt='Pizza Slice' />
                     <h4>See it Live!</h4>
                 </a>
